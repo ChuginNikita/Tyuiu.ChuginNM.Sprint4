@@ -9,7 +9,7 @@ namespace Tyuiu.ChuginNM.Sprint4.Task0.V4.Lib
             int p = 1;
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] % 2 == 0) { p *= array[i];  }
+                if (array[i] % 2 == 0) { p *= array[i]; }
                 else { continue; }
             }
             return p;
