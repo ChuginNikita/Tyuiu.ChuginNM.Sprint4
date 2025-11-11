@@ -11,9 +11,9 @@ namespace Tyuiu.ChuginNM.Sprint4.Task6.V19
             Console.Title = "Спринт #1 | Выполнил: Чугин Н. М. | АСОиУб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Двумерные массивы                                                 *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #28                                                             *");
+            Console.WriteLine("* Тема: Класс Array                                                       *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #19                                                             *");
             Console.WriteLine("* Выполнил: Чугин Никита Максимович | АСОиУб-25-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
