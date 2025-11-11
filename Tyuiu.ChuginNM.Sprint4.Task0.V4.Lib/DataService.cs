@@ -2,7 +2,7 @@
 
 namespace Tyuiu.ChuginNM.Sprint4.Task0.V4.Lib
 {
-    class DataService : ISprint4Task0V4
+    public class DataService : ISprint4Task0V4
     {
         public int GetMultEvenArrEl(int[] array)
         {
