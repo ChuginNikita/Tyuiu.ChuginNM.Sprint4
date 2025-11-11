@@ -4,7 +4,7 @@ namespace Tyuiu.ChuginNM.Sprint4.Task0.V4
 {
     class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
             DataService ds = new DataService();
             Console.Title = "Спринт #4 | Выполнил: Чугин Н. М. | АСОиУб-25-1";
