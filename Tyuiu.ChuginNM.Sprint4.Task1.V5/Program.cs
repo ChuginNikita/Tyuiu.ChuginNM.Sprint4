@@ -1,6 +1,6 @@
-﻿using Tyuiu.ChuginNM.Sprint4.Task0.V4.Lib;
+﻿using Tyuiu.ChuginNM.Sprint4.Task1.V5.Lib;
 
-namespace Tyuiu.ChuginNM.Sprint4.Task0.V4
+namespace Tyuiu.ChuginNM.Sprint4.Task1.V5
 {
     class Program
     {
@@ -12,8 +12,8 @@ namespace Tyuiu.ChuginNM.Sprint4.Task0.V4
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Тема: Одномерные массивы                                                *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Чугин Никита Максимович | АСОиУб-25-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -22,13 +22,21 @@ namespace Tyuiu.ChuginNM.Sprint4.Task0.V4
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* {5, 3, 7, 1, 3, 9, 8, 7, 9, 4}                                          *");
+
+            int[] array = new int[15];
+
+            for (int i = 0; i < 15; i++)
+            {
+                Console.WriteLine($"Введите {i} значение массива:");
+                array[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
             Console.WriteLine("***************************************************************************");
 
-            int[] array = [5, 3, 7, 1, 3, 9, 8, 7, 9, 4];
-            Console.WriteLine(ds.GetMultEvenArrEl(array));
+            Console.WriteLine(ds.Calculate(array));
         }
     }
 }
