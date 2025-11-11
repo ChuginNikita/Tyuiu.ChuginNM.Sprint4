@@ -9,7 +9,7 @@ namespace Tyuiu.ChuginNM.Sprint4.Task3.V17.Lib
         {
             int sum = 0;
 
-            sum = array[3, 0] + array[3, 1];
+            sum = array[0, 3] + array[1, 3] + array[2, 3] + array[3, 3] + array[4, 3];
 
             return sum;
         }
